@@ -1,0 +1,50 @@
+.main_Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+
+.sendTransactionForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial', sans-serif; /* Change to your preferred font */
+    min-width: 300px;
+    min-height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+   }
+   
+   .sendTransactionForm input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+   }
+   
+   .sendTransactionForm button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+   }
+   
+   .sendTransactionForm button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+   }
+   
+   .sendTransactionForm div {
+    margin-top: 10px;
+   }
+   
